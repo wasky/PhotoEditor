@@ -25,7 +25,7 @@ open class BaseActivity : AppCompatActivity() {
     }
 
     fun requestPermission(permission: String): Boolean {
-        // Test 7
+        // Test 8
         val isGranted = ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_GRANTED
         if (!isGranted) {
             mPermission = permission
